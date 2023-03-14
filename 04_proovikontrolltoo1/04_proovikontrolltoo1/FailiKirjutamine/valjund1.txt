@@ -1,0 +1,2 @@
+println teeb uue rea
+tavaline print ei tee uut rida ('Juku on seep samal real') Juku

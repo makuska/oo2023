@@ -1,22 +1,18 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-    static double kiirus;
-    static double speed2;
-    static double average;
+    static double kiirus = 0;
     static ArrayList<Double> avgSpeeds = new ArrayList<>();
     static ArrayList<Double> avg = new ArrayList<>();
     public static void main(String[] args) {
-//        double esimene = avgSpeed(10, 5);
-//        double teine = avgSpeed(20, 5);
-//        double kolmas = avgSpeed(30, 5);
         avgSpeed(5, 10);
         avgSpeed(10, 15);
         avgSpeed(20, 400);
         System.out.println(avgSpeeds);
         findAvgSpeeds(avgSpeeds);
-        System.out.println(avg);
+        System.out.println("Kiiruste keskmine on: " + avg);
     }
 
     public static void avgSpeed(double speed1, double speed2){
@@ -24,10 +20,10 @@ public class Main {
     }
 
     public static void findAvgSpeeds(ArrayList<Double> avgSpeeds){
-        for (int i = 0; i < avgSpeeds.size(); i++) {
-            kiirus = i++;
-            System.out.println(i);
+        for (Double avgSpeed : avgSpeeds) {
+            kiirus += avgSpeed;
+            System.out.println(kiirus);
         }
-        avg.add(kiirus);
+        avg.add(kiirus / avgSpeeds.size());
     }
 }

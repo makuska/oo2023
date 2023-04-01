@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/02_klass/Game/Game.iml" filepath="$PROJECT_DIR$/02_klass/Game/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_klass/Kasutaja_Klass/Kasutaja_Klass.iml" filepath="$PROJECT_DIR$/02_klass/Kasutaja_Klass/Kasutaja_Klass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oo2023.iml" filepath="$PROJECT_DIR$/.idea/oo2023.iml" />
+    </modules>
+  </component>
+</project>
